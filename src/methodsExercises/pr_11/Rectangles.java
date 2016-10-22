@@ -40,9 +40,9 @@ public class Rectangles {
 
     public boolean overlapRectangles(Rectangles rect){
         if (this.x < rect.getX() + rect.getWidth() &&
-                this.x + this.width > rect.getX() &&
-                this.y < rect.getY() + rect.getHeight() &&
-                this.y + this.height > rect.getY()){
+                this.x + this.width >= rect.getX() &&
+                this.y <= rect.getY() + rect.getHeight() &&
+                this.y + this.height >= rect.getY()){
             return true;
         }
         else{
