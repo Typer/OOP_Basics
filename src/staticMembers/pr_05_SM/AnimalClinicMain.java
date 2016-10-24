@@ -6,9 +6,7 @@ import java.io.InputStreamReader;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * Created by typer on 10/23/16.
- */
+
 public class AnimalClinicMain {
     public static void main(String[] args) throws IOException {
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
@@ -50,3 +48,4 @@ public class AnimalClinicMain {
         }
     }
 }
+

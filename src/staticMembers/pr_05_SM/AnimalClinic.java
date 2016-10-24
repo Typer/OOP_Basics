@@ -1,7 +1,7 @@
 package staticMembers.pr_05_SM;
 
 /**
- * Created by typer on 10/23/16.
+ * Created by typer on 10/24/16.
  */
 public class AnimalClinic {
     public static int patientId;

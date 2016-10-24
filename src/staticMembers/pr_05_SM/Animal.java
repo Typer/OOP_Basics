@@ -1,8 +1,6 @@
 package staticMembers.pr_05_SM;
 
-/**
- * Created by typer on 10/23/16.
- */
+
 public class Animal {
     private String name;
     private String breed;
