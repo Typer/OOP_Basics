@@ -1,14 +1,14 @@
 package encapsulationExercises.pr_01_EE;
 
 /**
- * Created by typer on 10/24/16.
+ * Created by typer on 10/25/16.
  */
-public class Box {
+public class BoxTwo {
     private double length;
     private double width;
     private double height;
 
-    public Box(double length, double width, double height) {
+    public BoxTwo(double length, double width, double height) {
         this.length = length;
         this.width = width;
         this.height = height;
@@ -28,7 +28,7 @@ public class Box {
 
     @Override
     public String toString() {
-        return String.format("Surface Area – %.2f%nLateral Surface Area – %.2f%nVolume – %.2f%n"
+        return String.format("Surface Area - %.2f%nLateral Surface Area - %.2f%nVolume - %.2f%n"
                 ,getSurfaceArea()
                 ,getLateralSurfaceArea()
                 ,getVolume());
