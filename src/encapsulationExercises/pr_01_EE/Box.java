@@ -1,14 +1,11 @@
 package encapsulationExercises.pr_01_EE;
 
-/**
- * Created by typer on 10/25/16.
- */
-public class BoxTwo {
+class Box {
     private double length;
     private double width;
     private double height;
 
-    public BoxTwo(double length, double width, double height) {
+    public Box(double length, double width, double height) {
         this.length = length;
         this.width = width;
         this.height = height;

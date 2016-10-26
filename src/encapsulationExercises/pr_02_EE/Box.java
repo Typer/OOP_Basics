@@ -1,5 +1,8 @@
 package encapsulationExercises.pr_02_EE;
 
+/**
+ * Created by typer on 10/26/16.
+ */
 public class Box {
     private double length;
     private double width;
@@ -50,8 +53,8 @@ public class Box {
     @Override
     public String toString() {
         return String.format("Surface Area - %.2f%nLateral Surface Area - %.2f%nVolume - %.2f"
-                ,getSurfaceArea()
-                ,getLateralSurfaceArea()
-                ,getVolume());
+                , getSurfaceArea()
+                , getLateralSurfaceArea()
+                , getVolume());
     }
 }
